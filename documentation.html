@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DRIFT Documentation</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell content-shell">
+      <nav class="nav">
+        <a href="./index.html">Home</a>
+        <a href="./release-notes.html">Release notes</a>
+        <a href="./privacy.html">Privacy</a>
+        <a href="./terms.html">Terms</a>
+      </nav>
+
+      <article class="legal-card">
+        <p class="eyebrow">Documentation</p>
+        <h1>DRIFT Overview</h1>
+        <p class="last-updated">Last updated: 27 March 2026</p>
+
+        <p>
+          DRIFT is a Jira app for requirements traceability and backlog review. It helps teams preserve a source
+          requirement baseline, review Jira work against those requirements, and make human decisions before stories
+          move into delivery.
+        </p>
+
+        <h2>Core workflow</h2>
+        <ul>
+          <li>Ingest source requirements from pasted text, documents, or Confluence pages</li>
+          <li>Review parsed requirements and coverage at the project level</li>
+          <li>Draft Jira stories directly from uncovered requirements</li>
+          <li>Link each Jira issue to one primary requirement</li>
+          <li>Run validation and record a review decision</li>
+        </ul>
+
+        <h2>What DRIFT does today</h2>
+        <ul>
+          <li>Requirement ingestion from text, files, and Confluence</li>
+          <li>Deterministic drift validation for numeric, timing, and coverage issues</li>
+          <li>Optional AI semantic review</li>
+          <li>AI-assisted requirement extraction for messy source text</li>
+          <li>Requirement coverage tracking based on explicitly linked Jira issues</li>
+          <li>Draft-story generation from a requirement with editable acceptance criteria</li>
+        </ul>
+
+        <h2>Licensing</h2>
+        <p>
+          DRIFT is maintained as two Forge app variants from one shared codebase:
+        </p>
+        <ul>
+          <li><strong>Beta app:</strong> private testing and design-partner usage</li>
+          <li><strong>Marketplace app:</strong> licensed Paid via Atlassian version for customer installs</li>
+        </ul>
+
+        <h2>Recommended use case</h2>
+        <p>
+          DRIFT is a good fit for teams that generate or refine Jira backlog items from client requirements, internal
+          specifications, Confluence pages, or AI-assisted story drafting workflows and want a quality gate before
+          engineering starts.
+        </p>
+
+        <h2>Important notes</h2>
+        <ul>
+          <li>DRIFT outputs support human review and are not automatic delivery approval</li>
+          <li>AI-assisted features are optional and require provider configuration</li>
+          <li>Confluence import depends on access to the target page on the same Atlassian site</li>
+          <li>Coverage is based on explicit links, not fuzzy matches</li>
+        </ul>
+      </article>
+    </main>
+  </body>
+</html>
