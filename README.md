@@ -1,26 +1,53 @@
-# DRIFT Public Site
+# DRIFT Support And Public Docs
 
-This folder is intended to be published from a separate public GitHub Pages repository.
+This repository is the public support and documentation home for **DRIFT**.
 
-It contains:
+Use it to:
 
-- landing page
-- documentation
-- release notes
-- privacy policy
-- terms of service
+- read product documentation
+- check release notes
+- access privacy, security, and terms pages
+- raise non-sensitive support issues
 
-## Publish flow
+## Important links
 
-1. Create a new public GitHub repository for the DRIFT public site
-2. Copy the contents of this folder into that repo
-3. Enable GitHub Pages for the repo root
-4. Use the resulting public URLs in Atlassian Marketplace
+- Website: [DRIFT public site](https://jordan-murray.github.io/DRIFT-Public/)
+- Documentation: [Documentation](https://jordan-murray.github.io/DRIFT-Public/documentation.html)
+- Release notes: [Release notes](https://jordan-murray.github.io/DRIFT-Public/release-notes.html)
+- Security policy: [Security policy](https://jordan-murray.github.io/DRIFT-Public/security.html)
+- Privacy policy: [Privacy policy](https://jordan-murray.github.io/DRIFT-Public/privacy.html)
+- Terms of service: [Terms of service](https://jordan-murray.github.io/DRIFT-Public/terms.html)
+- Source code license agreement: [Source code license agreement](https://jordan-murray.github.io/DRIFT-Public/source-code-license-agreement)
+- Support issues: [Open an issue](https://github.com/Jordan-Murray/DRIFT-Public/issues)
 
-## Suggested public URLs
+## Getting support
 
-- `/index.html`
-- `/documentation.html`
-- `/release-notes.html`
-- `/privacy.html`
-- `/terms.html`
+For product questions, bugs, setup help, or unexpected behaviour, please open a GitHub issue in this repository:
+
+- [github.com/Jordan-Murray/DRIFT-Public/issues](https://github.com/Jordan-Murray/DRIFT-Public/issues)
+
+When raising an issue, include:
+
+- what you were trying to do
+- what happened instead
+- screenshots if helpful
+- your Jira product type and app variant if relevant
+- any visible DRIFT error message
+
+## Security issues
+
+Please **do not** report security vulnerabilities in public GitHub issues.
+
+Instead, email:
+
+- [jlmurray100@gmail.com](mailto:jlmurray100@gmail.com)
+
+See also:
+
+- [Security policy](https://jordan-murray.github.io/DRIFT-Public/security.html)
+
+## About this repository
+
+This is a public documentation and support repository. It is **not** the private DRIFT product source-code repository.
+
+The repo is used to publish the DRIFT GitHub Pages site and provide a public place for documentation, release notes, and customer support links.
