@@ -40,7 +40,7 @@ Please **do not** report security vulnerabilities in public GitHub issues.
 
 Instead, email:
 
-- [jlmurray100@gmail.com](mailto:jlmurray100@gmail.com)
+- [support@jordanmurray.dev](mailto:support@jordanmurray.dev)
 
 See also:
 
